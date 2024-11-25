@@ -1,6 +1,5 @@
 import { useLoaderData } from "react-router-dom";
 
-
 const Update = () => {
     const loadedUser = useLoaderData();
 
