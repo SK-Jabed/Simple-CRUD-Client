@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 
-
 const Users = () => {
     const loadedUsers = useLoaderData();
     const [users, setUsers] = useState(loadedUsers);
