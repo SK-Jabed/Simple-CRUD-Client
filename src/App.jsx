@@ -8,7 +8,7 @@ function App() {
      const name = form.name.value;
      const email = form.email.value;
      const user = {name, email};
-     
+
      console.log(user);
 
      fetch("http://localhost:5000/users", {
@@ -30,7 +30,6 @@ function App() {
 
   return (
     <>
-
       <h1>Simple CRUD</h1>
       <form onSubmit={handleAddUser}>
         <input type="text" name="name" id="" />
@@ -40,7 +39,6 @@ function App() {
         <input type="submit" value={"Add User"} />
         <br />
       </form>
-
     </>
   )
 }

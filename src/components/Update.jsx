@@ -8,6 +8,7 @@ const Update = () => {
         const form = event.target;
         const name = form.name.value;
         const email = form.email.value;
+        
         console.log({name, email});
 
         const updatedUser = {name, email};
