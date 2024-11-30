@@ -3,10 +3,12 @@ import './App.css'
 function App() {
   const handleAddUser = (e) => {
      e.preventDefault();
+
      const form = e.target;
      const name = form.name.value;
      const email = form.email.value;
      const user = {name, email};
+     
      console.log(user);
 
      fetch("http://localhost:5000/users", {
