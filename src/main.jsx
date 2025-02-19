@@ -6,10 +6,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Users from "./components/Users.jsx";
 import Update from "./components/Update.jsx";
 
-
-
-
-
 const router = createBrowserRouter([
   {
     path: "/",
